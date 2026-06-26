@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ReportMe (Smart Debugging Assistant) - Project by Radhesh Reddy Yarram">
+    <title>ReportMe (Smart Debugging Assistant) | Radhesh Reddy Yarram</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Radhesh Reddy Yarram | Portfolio">
+    <meta property="og:description" content="Portfolio of Radhesh Reddy Yarram, AI/ML Student & Developer">
+    <meta property="og:image" content="https://radheshreddyyarram.github.io/Portfolio/profile.jpg">
+    <meta property="og:url" content="https://radheshreddyyarram.github.io/Portfolio/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">RY<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Get in touch</a></li>
+            </ul>
+            <div class="hamburger" role="button" aria-label="Toggle navigation" tabindex="0">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Wrapper -->
+    <div style="padding-top: var(--nav-height); min-height: calc(100vh - 80px);">
+        <section class="section">
+            <div class="container" style="max-width: 800px;">
+                <a href="projects.html" style="display: inline-block; margin-bottom: 2rem; color: var(--accent); text-decoration: none; font-weight: 600;">&larr; Back to Projects</a>
+                
+                <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">ReportMe (Smart Debugging Assistant)</h1>
+                <div class="tags" style="margin-bottom: 2rem;">
+                    <span>TypeScript</span><span>n8n</span><span>Groq & Gemini</span>
+                </div>
+
+                <div class="project-details" style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.8;">
+                    
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem 0;">Project Overview</h3>
+            <p>Built during the "CODEDGE" Hackathon (BYOONDCAMPUZ), ReportMe is an intelligent debugging assistant engineered to help novice programmers understand cryptic error messages. Instead of simply presenting stack traces, ReportMe translates errors into plain, educational language.</p>
+            
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem 0;">How It Works</h3>
+            <ul>
+                <li><strong>Language Detection:</strong> Automatically identifies the programming language context of the submitted code snippet.</li>
+                <li><strong>Log Fetching:</strong> Integrates with online compiler APIs to fetch real-world execution error logs.</li>
+                <li><strong>Multi-Agent Analysis:</strong> Uses a chained AI workflow involving Groq (for fast preprocessing) and Google Gemini (for deep contextual explanation) to analyze the error and generate a beginner-friendly fix.</li>
+            </ul>
+
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem 0;">Achievements</h3>
+            <p>As the Team Lead for this project, I architected the core n8n workflows and API integrations. The platform successfully demonstrated the potential of AI as a scalable, personalized tutor for computer science education.</p>
+        
+                </div>
+
+                <div style="margin-top: 3rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://github.com/radheshreddyyarram/ReportMe" target="_blank" class="btn primary-btn" style="display: inline-block;">View Source on GitHub</a>
+            <a href="https://www.linkedin.com/posts/radhesh-reddy-yarram-a8b6a82b5_hackathon-codedge-beyondcampuz-activity-7460851671229911040-5aig?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEu-PgsBJpksfXyoGndBVsjvLFTtnCOIA8g" target="_blank" class="btn secondary-btn" style="background-color: #0A66C2; color: white; border-color: #0A66C2; display: inline-block;">View LinkedIn Post</a>
+        </div>
+            </div>
+        </section>
+    </div>
+
+        <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Radhesh Reddy Yarram. Built with passion.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://github.com/radheshreddyyarram" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; transition: color 0.3s ease;">GitHub</a>
+            <a href="https://www.linkedin.com/in/radhesh-reddy-yarram-a8b6a82b5" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; transition: color 0.3s ease;">LinkedIn</a>
+            <a href="mailto:yarramradheshreddy@gmail.com" style="margin: 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; transition: color 0.3s ease;">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

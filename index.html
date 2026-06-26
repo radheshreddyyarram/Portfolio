@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Radhesh Reddy Yarram, AI/ML Student & Developer">
+    <title>Radhesh Reddy Yarram | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Radhesh Reddy Yarram | Portfolio">
+    <meta property="og:description" content="Portfolio of Radhesh Reddy Yarram, AI/ML Student & Developer">
+    <meta property="og:image" content="https://radheshreddyyarram.github.io/Portfolio/profile.jpg">
+    <meta property="og:url" content="https://radheshreddyyarram.github.io/Portfolio/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">RY<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Get in touch</a></li>
+            </ul>
+            <div class="hamburger" role="button" aria-label="Toggle navigation" tabindex="0">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Centered Hero -->
+    <section id="home" class="hero" style="flex-direction: column; justify-content: center; text-align: center; padding-top: calc(var(--nav-height) + 4rem); min-height: calc(100vh - 80px);">
+        <div class="container" style="max-width: 800px; display: flex; flex-direction: column; align-items: center; gap: 2rem;">
+            
+            <!-- Picture First -->
+            <div class="hero-image fade-up">
+                <div class="profile-placeholder has-image" style="margin: 0 auto;">
+                    <div class="placeholder-text">RY</div>
+                    <img src="profile.jpg" alt="Radhesh Reddy Yarram">
+                </div>
+            </div>
+
+            <!-- Name and Tagline -->
+            <div class="hero-text fade-up delay-1">
+                <h1 style="font-size: 3.5rem; margin-bottom: 0.5rem;">RADHESH REDDY YARRAM</h1>
+                <h2 style="color: var(--accent); font-size: 1.5rem; margin-bottom: 2rem;">GSoC '26 | Reliance Scholar | AI & ML Enthusiast</h2>
+            </div>
+
+            <!-- About Me Text directly below -->
+            <div class="about-text fade-up delay-2" style="font-size: 1.15rem; color: var(--text-secondary); line-height: 1.8;">
+                <p style="max-width: 750px; margin: 0 auto;">Hi, I am a curious and motivated student with a deep passion for Artificial Intelligence and the endless opportunities it offers. Alongside my tech journey, <strong>I absolutely love marketing</strong> and am actively learning how to integrate programming knowledge with marketing strategies to develop innovative solutions and improve customer engagement.</p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-buttons fade-up delay-3" style="margin-top: 2rem; margin-bottom: 4rem; display: flex; justify-content: center; gap: 1rem;">
+                <a href="projects.html" class="btn primary-btn">View Projects</a>
+                <a href="contact.html" class="btn secondary-btn">Get in touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Overview Section -->
+    <section class="section" style="padding-top: 6rem;">
+        <div class="container">
+            <h2 class="section-title fade-in" style="font-size: 2rem; margin-bottom: 2rem;">Quick Overview</h2>
+            <div class="overview-grid fade-in" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 5rem;">
+                
+                <div class="overview-card" style="background: var(--bg-card); padding: 2.5rem; border-radius: 8px; border: 1px solid var(--border-color); transition: all 0.3s ease;">
+                    <h3 style="font-size: 1.4rem; color: var(--text-primary);">Education</h3>
+                    <p style="color: var(--text-secondary); margin: 1rem 0; line-height: 1.6;">My academic background, current degrees, and institutions.</p>
+                    <a href="education.html" style="color: var(--accent); text-decoration: none; font-weight: 600;">Explore &rarr;</a>
+                </div>
+
+                <div class="overview-card" style="background: var(--bg-card); padding: 2.5rem; border-radius: 8px; border: 1px solid var(--border-color); transition: all 0.3s ease;">
+                    <h3 style="font-size: 1.4rem; color: var(--text-primary);">Skills</h3>
+                    <p style="color: var(--text-secondary); margin: 1rem 0; line-height: 1.6;">The technical stack, programming languages, and tools I use.</p>
+                    <a href="skills.html" style="color: var(--accent); text-decoration: none; font-weight: 600;">Explore &rarr;</a>
+                </div>
+
+                <div class="overview-card" style="background: var(--bg-card); padding: 2.5rem; border-radius: 8px; border: 1px solid var(--border-color); transition: all 0.3s ease;">
+                    <h3 style="font-size: 1.4rem; color: var(--text-primary);">Projects</h3>
+                    <p style="color: var(--text-secondary); margin: 1rem 0; line-height: 1.6;">Advanced AI automations, Chatbots, and Software systems.</p>
+                    <a href="projects.html" style="color: var(--accent); text-decoration: none; font-weight: 600;">Explore &rarr;</a>
+                </div>
+
+            </div>
+
+            <h2 class="section-title fade-in" style="font-size: 2rem; margin-bottom: 2rem;">Featured Projects</h2>
+            <div class="projects-grid fade-in" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin-bottom: 5rem;">
+                
+                <!-- Project 1: Health Chat Bot -->
+                <div class="project-card" style="background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-color); padding: 2.5rem; transition: all 0.3s ease;">
+                    <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--text-primary);">AI Health Chat Bot</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">A multi-lingual AI chatbot designed for areas with low network connectivity. Provides health news, scheduling, and emergency assistance.</p>
+                    <a href="project-healthbot.html" class="btn primary-btn" style="display: inline-block; padding: 0.6rem 1.5rem; font-size: 0.9rem;">View Details</a>
+                </div>
+
+                <!-- Project 2: ReportMe -->
+                <div class="project-card" style="background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-color); padding: 2.5rem; transition: all 0.3s ease;">
+                    <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--text-primary);">ReportMe (Smart Debugging Assistant)</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">An AI-powered debugging assistant that helps students understand coding errors. It detects languages, fetches logs, and explains them using Groq & Gemini.</p>
+                    <a href="project-reportme.html" class="btn primary-btn" style="display: inline-block; padding: 0.6rem 1.5rem; font-size: 0.9rem;">View Details</a>
+                </div>
+            </div>
+
+            <div class="cta-section fade-in" style="text-align: center; padding: 4rem 2rem; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); margin-bottom: 2rem;">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Ready to collaborate?</h2>
+                <p style="color: var(--text-secondary); font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem auto;">I'm open for collaboration, internships, and learning opportunities. Let's build innovative solutions together.</p>
+                <a href="contact.html" class="btn secondary-btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Radhesh Reddy Yarram. Built with passion.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://github.com/radheshreddyyarram" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; transition: color 0.3s ease;">GitHub</a>
+            <a href="https://www.linkedin.com/in/radhesh-reddy-yarram-a8b6a82b5" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; transition: color 0.3s ease;">LinkedIn</a>
+            <a href="mailto:yarramradheshreddy@gmail.com" style="margin: 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; transition: color 0.3s ease;">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

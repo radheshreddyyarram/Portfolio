@@ -1,0 +1,17 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (73,72)<a class='logo' href='#home'>RY />
+	[1] (86,71)<span >. />
+[2] (715,72)<a href='#about'>About />
+[3] (778,72)<a href='#skills'>Skills />
+[4] (846,72)<a href='#projects'>Projects />
+[5] (922,72)<a href='#contact'>Contact />
+RADHESH REDDY YARRAM
+GSoC '26 | Reliance Scholar | AI & ML Enthusiast
+I am a curious and motivated student with a deep passion for Artificial Intelligence, Marketing, and Cybersecurity. I strive to explore innovative applications and build systems that transform industries.
+[6] (575,718)<a class='btn primary-btn' href='#projects'>View Projects />
+[7] (685,718)<a class='btn secondary-btn' href='#contact'>Contact Me />
+
+</current_dom>
